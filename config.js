@@ -1,12 +1,12 @@
 module.exports = {
     app: {
         token: process.env.DISCORD_TOKEN || 'xxx',
-        playing: 'by the Community ❤️',
+        playing: 'i love you 6 years ago until then',
         global: true,
         guild: process.env.GUILD_ID || 'xxx',
         extraMessages: false,
         loopMessage: false,
-        lang: 'en',
+        lang: 'id',
         enableEmojis: false,
     },
 
@@ -29,10 +29,10 @@ module.exports = {
         Translate_Timeout: 10000,
         maxVol: 100,
         spotifyBridge: true,
-        volume: 75,
-        leaveOnEmpty: true,
+        volumes: 75,
+        leaveOnEmpty: false,
         leaveOnEmptyCooldown: 30000,
-        leaveOnEnd: true,
+        leaveOnEnd: false,
         leaveOnEndCooldown: 30000,
         discordPlayer: {
             ytdlOptions: {
@@ -42,3 +42,5 @@ module.exports = {
         }
     }
 };
+
+ 
